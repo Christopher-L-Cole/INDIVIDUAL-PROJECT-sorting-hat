@@ -1,0 +1,37 @@
+.form-popup {
+    display: none;
+    position: center;
+    bottom: 0;
+    right: 20px;
+    border: 3px solid #bc411c;
+    z-index: 9;
+  }
+
+.open-button {
+    background-color: #ba401a;
+    color: rgb(39, 48, 91);
+}
+
+.form-container {
+    background-color: #bc411c;
+}
+
+.card {
+    background-color: #735349;
+    
+}
+
+#filter-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 3px solid green;
+}
+
+  #app {
+    margin-block: 4px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around 
+}
