@@ -25,7 +25,7 @@ app.innerHTML = "Hello!"; // we set the inner HTML text to Hello!
 const renderToDom = (array) => {
   let domString = ""
 
-  for(wizard of array){ 
+  for(const wizard of array){ 
     domString += `<div class="card myWizardCard" style="width: 18rem">
       <div class="card-header">
         ${wizard.name}
@@ -51,7 +51,7 @@ renderToDom(wizards)
   const hufflepuffButton = document.querySelector("#Hufflepuff")
   const allButton = document.querySelector("#All")
 
-  const filter = (array, wizardType) => { //////the filter function here has two arguments, the entire array wizards and a new one wizardType
+  const filter = (wizardType) => { 
     let wizardArray = []; //initialized an empty array! 
     
     for (wizard of array) //iterates through each wizard object in the array. For each wizard:
